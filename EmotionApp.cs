@@ -23,17 +23,8 @@ namespace Borrador3Proyecto
                 Console.WriteLine("Lista de emociones disponibles:\n");
                 for (int i = 0; i < emotions.Count; i++)
                 {
-                    Console.WriteLine($"{i + 1}. {emotions[i].Emocion}");  // Corregir aquí, utilizar el nombre de la emoción
+                    Console.WriteLine($"{i + 1}. {emotions[i].Emocion}");
                 }
-
-                /*if (emotionsArray != null)
-                {
-                    List<Emotion> emotions = emotionsArray.ToObject<List<Emotion>>();
-                    Console.WriteLine("Lista de emociones disponibles:\n");
-                    for (int i = 0; i < emotions.Count; i++)
-                    {
-                        Console.WriteLine($"{i + 1}. {emotions[i].Emocion}");
-                    }*/
 
                 Console.Write("\nEliga una de las emociones: ");
 

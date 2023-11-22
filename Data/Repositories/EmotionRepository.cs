@@ -118,28 +118,6 @@ namespace Borrador3Proyecto.Data.Repositories
             }
         }
 
-
-
-        /*public void Insert(Emotion entity)
-        {
-            try
-            {
-                MessageLogger.LogInformationMessage($"Insert...{entity.Emocion}");
-
-                var fbModel = MapEntityToFirestoreModel(entity);
-                var colRef = _connection.FirestoreDb.Collection(COLLECTION_NAME);
-                var doc = colRef.AddAsync(fbModel).ConfigureAwait(false).GetAwaiter().GetResult();
-
-                MessageLogger.LogInformationMessage($"Success Insert...{entity.Emocion}");
-
-            }
-            catch (Exception ex)
-            {
-                MessageLogger.LogErrorMessage(ex);
-                throw;
-            }
-        }*/
-
         public void Insert(Emotion entity)
         {
             try
@@ -158,25 +136,6 @@ namespace Borrador3Proyecto.Data.Repositories
                 throw;
             }
         }
-
-        /*private FirestoreModels.Emotion MapEntityToFirestoreModel(Emotion entity)
-        {
-            return new FirestoreModels.Emotion
-            {
-                Id = entity.Id,
-                Emocion = entity.Emocion,
-            };
-        }*/
-
-        /*private FirestoreModels.Emotion MapEntityToFirestoreModel(Emotion entity)
-        {
-            return new FirestoreModels.Emotion
-            {
-                Id = entity.Id,
-                Emocion = entity.Emocion,
-                Autor = entity.Autor  // Mapear el autor a Firestore
-            };
-        }*/
 
         private FirestoreModels.EmotionFirestoreModel MapEntityToFirestoreModel(Emotion emotion)
         {

@@ -16,13 +16,6 @@ namespace Borrador3Proyecto
         public string Autor { get; set; }
 
 
-        /*public Emotion(string id, string Emocion, int v, string autor)
-        {
-            _Emocion = Emocion;
-            _id = id;
-            Autor = autor;
-        }*/
-
         public Emotion(string id, string emocion, string autor)
         {
             Id = id;

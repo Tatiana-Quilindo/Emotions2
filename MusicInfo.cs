@@ -13,5 +13,11 @@ namespace Borrador3Proyecto
         public string URL_de_la_Imagen_del_Artista { get; set; }
         [JsonProperty("URL del Video")]
         public string URL_del_Video { get; set; }
+
+       // public string ImageUrl { get => imageUrl; set => imageUrl = value; }
+       // public string VideoUrl { get => videoUrl; set => videoUrl = value; }
+
+       // private string imageUrl;
+        //private string videoUrl;
     }
 }

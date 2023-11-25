@@ -1,7 +1,7 @@
 {
     "Sentimientos": [
         {
-            "Emoción": "Aburrimiento",
+            "Emocion": "Aburrimiento",
             "MusicList": [
                 {
                     "Álbum": "Exile on Main St.",
@@ -87,7 +87,7 @@
         },
 
         {
-            "Emoción": "Alegria",
+            "Emocion": "Alegria",
             "MusicList": [
                 {
                     "Autor": "Pharrell Williams",
@@ -172,7 +172,7 @@
             ]
         },
         {
-            "Emoción": "Esperanza",
+            "Emocion": "Esperanza",
             "MusicList": [
                 {
                     "Género": "Pop, Rock",
@@ -266,7 +266,7 @@
         },
 
         {
-            "Emoción": "Ira",
+            "Emocion": "Ira",
             "MusicList": [
                 {
                     "Autor": "Rage Against the Machine",
@@ -360,7 +360,7 @@
             ]
         },
         {
-            "Emoción": "Nostalgico",
+            "Emocion": "Nostalgico",
             "MusicList": [
                 {
                     "Autor": "Elvis Presley",
@@ -455,7 +455,7 @@
         },
 
         {
-            "Emoción": "Romance",
+            "Emocion": "Romance",
             "MusicList": [
                 {
                     "Autor": "Ed Sheeran",
@@ -549,7 +549,7 @@
             ]
         },
         {
-            "Emoción": "Tristeza",
+            "Emocion": "Tristeza",
             "MusicList": [
                 {
                     "Autor": "Adele",

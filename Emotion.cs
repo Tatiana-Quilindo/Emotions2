@@ -15,7 +15,7 @@ namespace Borrador3Proyecto
         public string Emocion { get { return _Emocion; } set { _Emocion = value; } }
         public string Autor { get; set; }
 
-
+        
         public Emotion(string id, string emocion, string autor)
         {
             Id = id;
